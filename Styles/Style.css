@@ -52,7 +52,7 @@ body{
 
 .model {
 
-    display: none;
+    /* display: none; */
     position: fixed;
     top: 5%;   
     left: 70%; 
@@ -60,12 +60,15 @@ body{
     border: 2px dashed black;
     border-radius: 8px;
     cursor: pointer;
-    padding: 20px;
+    padding: 30px;
+    margin: 10px;
     width: 200px;
-    height: 160px;
+    height: 200px;
     margin: 10px;
 } 
 .model button {
+    display: flex;
+    flex-direction: column;
     padding: 5px;
     background-color: #4CAF50;
     color: white;
@@ -77,3 +80,12 @@ body{
 .model button:hover {
     background-color: lightgreen;
 }
+
+.model span{
+    top: 1px;
+}
+.model span:hover{
+background-color: gray;
+}
+
+
